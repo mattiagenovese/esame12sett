@@ -23,10 +23,11 @@
   },
   "homepage": "https://github.com/mattiagenovese/esame12sett#readme",
 
-"jest": {
+  "jest": {
 
-  "verbose": true,
+    "verbose": true,
 
-  "collectCoverage": true
+    "collectCoverage": true
 
+  }
 }
