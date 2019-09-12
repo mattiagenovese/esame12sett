@@ -5,11 +5,12 @@
   "main": "app.js",
   "dependencies": {
     "axios": "^0.19.0",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "express": "4.17.1"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "app.js",
+    "start": "node app.js",
     "test": "jest"
   },
   "repository": {
@@ -22,12 +23,8 @@
     "url": "https://github.com/mattiagenovese/esame12sett/issues"
   },
   "homepage": "https://github.com/mattiagenovese/esame12sett#readme",
-
   "jest": {
-
     "verbose": true,
-
     "collectCoverage": true
-
   }
 }
